@@ -18,7 +18,7 @@ const Header = () => {
   };
   return (
     <>
-    <header className="  flex justify-between lg:h-[60px] items-center lg:mx-[3rem] lg">
+    <header style={{zIndex:"9"}} className=" top-0 sticky  bg-white flex justify-between lg:h-[60px] items-center lg:mx-[3rem] lg">
           <div >
             <Link to={'/'} href="" className=''>
               <img src={logo} alt="Logo" className=' w-20 h-17 lg:w-40 lg:h-20 '/>
@@ -27,7 +27,7 @@ const Header = () => {
           
           <div className=' lg:flex items-center  lg:border rounded-full lg:py- lg:px-4 lg:w-[400px] lg:gap-2 lg:justify-between'>
             <div>
-              <input type="text" placeholder='Search by Event ' className=' hidden lg:block lg:border border-transparent lg:flex-1 lg:w-[300px] lg:p-4 lg:py-2 lg:px-4'  />
+              <input type="text" placeholder='Search by Event ' className=' hidden lg:block lg:border outline-none border-transparent lg:flex-1 lg:w-[300px] lg:p-4 lg:py-2 lg:px-4'  />
               
             </div>
             <div>

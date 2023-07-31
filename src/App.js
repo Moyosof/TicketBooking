@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 import RegisterPage from './pages/RegisterPage'
 import AccountPage from './pages/AccountPage'
 import AdminPage from './pages/AdminPage'
+import Ticket from './pages/Ticket'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/account' element={<AccountPage/>} />
         <Route path='/account/bookings' element={<AccountPage/>} />
         <Route path='/admin' element={<AdminPage/>} />
+        <Route path='/ticket' element={<Ticket/>} />
       </Route>
       
     </Routes>
